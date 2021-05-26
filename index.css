@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 100%;
+}
+.box .box1 {
+  width: 640px;
+  margin: 0 auto;
+}
+.box .box1 .ul1 {
+  margin-top: -5px;
+  width: 640px;
+  height: 360px;
+  background-color: #011957;
+}
+.box .box1 .ul1 li {
+  list-style: none;
+  float: left;
+  width: 140px ;
+  height: 50px;
+  background-color: #6745b5;
+  color: white;
+  border-radius: 10px;
+  font-size: 22px;
+  line-height: 50px;
+  text-indent: 5px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.box .box1 .ul1 li img {
+  position: absolute;
+  right: 0;
+  top: 11px;
+}
+.box .box1 .ul1 li:hover {
+  cursor: pointer;
+}
+.box .box1 .ul2 {
+  width: 640px;
+  height: 3220px;
+  background-color: #011957;
+}
+.box .box1 .ul2 li:hover {
+  cursor: pointer;
+}
+.box .box1 .ul2 li {
+  list-style: none;
+  float: left;
+  width: 300px ;
+  height: 385px;
+  color: black;
+  background-color: #fff;
+  font-size: 21px;
+  position: relative;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.box .box1 .ul2 li img {
+  width: 280px;
+  border-radius: 10px;
+}
+.box .box1 .ul2 li .p {
+  text-indent: 17px;
+}
+.box .box1 .ul2 li .p1 {
+  text-align: left;
+  text-indent: 13px;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  font-size: 25px;
+  color: #fd384c;
+  font-weight: 900;
+}
+.box .box1 .ul2 li .p2 {
+  text-align: left;
+  text-indent: 17px;
+  color: #666;
+  text-decoration: line-through;
+}
+.box .box1 .ul2 li .p3 {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-color: #fd384c;
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  border-radius: 5px;
+}
